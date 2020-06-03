@@ -33,7 +33,6 @@ def remote(request):
 
     # for lambdatest
     # https://www.lambdatest.com/support/docs/pytest-with-selenium-running-pytest-automation-script-on-lambdatest-selenium-grid/
-
     wd = webdriver.Remote(
         command_executor="https://iamkos:KkxKVVGfuvcGR2XDw7xw8DlLxpgMHX6oGs9dz21x81Hahf5kB9@hub.lambdatest.com/wd/hub",
         desired_capabilities={"platform": "Windows 10", "browserName": "chrome", "version": "73"})
